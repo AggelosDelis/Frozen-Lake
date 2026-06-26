@@ -106,6 +106,6 @@ The current experiments show that:
 * Retraining Q-learning on the new map improves performance again.
 * The slippery version is a better stochastic MDP experiment, while the non-slippery version is useful as a deterministic sanity check.
 * Similarities: Both algoritmhs use the Bellman idea:
-    ```text current value = reward now + discounted future value ```
-    ```text reward + gamma * future value```
-    ```text produce a policy by choosing the action with highest value```
+    ```current value = reward now + discounted future value ```
+    ```reward + gamma * future value```
+    ```produce a policy by choosing the action with highest value```
