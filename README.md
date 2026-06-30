@@ -1,4 +1,4 @@
-# FrozenLake RL vs Dynamic Programming
+# FrozenLake Reinforcment Learning vs Dynamic Programming
 
 This project compares two approaches for solving the FrozenLake environment:
 
