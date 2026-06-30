@@ -2,8 +2,8 @@
 
 This project compares two approaches for solving the FrozenLake environment:
 
-* **Q-learning**: a model-free reinforcement learning algorithm.
-* **Value Iteration**: a dynamic-programming algorithm that uses the environment transition model.
+* **Q-learning**: a model free reinforcement learning algorithm.
+* **Value Iteration**: a dynamic programming algorithm that uses the environment transition model.
 
 The experiment trains a tabular Q-learning agent on an 8x8 FrozenLake map, compares it against value iteration.
 
@@ -21,7 +21,7 @@ Each value estimates the expected future reward of taking an action from a given
 
 ### Value Iteration
 
-Value iteration is a dynamic-programming method. It uses the known transition model of the environment:
+Value iteration is a dynamic programming method that, uses the known transition model of the environment:
 
 ```text
 P(next_state | state, action)
@@ -42,8 +42,8 @@ frozenlake_project/
 
 ## Files
 
-* `common.py` — shared configuration, environment creation, map utilities, evaluation functions, printing helpers and plotting functions.
-* `q_learning.py` — tabular Q-learning implementation.
+* `common.py` — shared information, environment creation, map utilities, evaluation functions, printing helpers and plotting functions.
+* `q_learning.py` — array Q-learning implementation.
 * `value_iteration.py` — dynamic-programming / value-iteration implementation.
 * `main.py` — experiment runner. It trains Q-learning, runs value iteration, compares both methods, changes the map, tests transfer, retrains, and prints the final summary.
 * `plots/` — generated plots and map visualizations.
